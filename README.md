@@ -2,7 +2,7 @@
 
 **f2e-workflow** is a cross-platform, efficient, smooth workflow for F2E project based on [Grunt].
 
-*[Chinese(zh_CN) README.md available.](https://github.com/hzlzh/Grunt-Workflow/blob/master/README-zh_CN.md)*   
+*[中文说明文档(zh_CN) 见此](https://github.com/hzlzh/Grunt-Workflow/blob/master/README-zh_CN.md)*   
 
 ###Table of contents
 
@@ -71,8 +71,9 @@ After run `f2e-workflow`, you'll get `../publish` which is the final output.
 
 #### Mac OS
 
-1. Recommended: install [Node.js] with [Brew] *If not installed*
-2. Install those two requirements [via](https://github.com/Ensighten/spritesmith#requirements)
+1. Recommended: install [Node.js] with [Brew] *If not installed* [HowTo](https://github.com/hzlzh/f2e-workflow/issues/11)
+2. Required: install [Grunt CLI](https://github.com/hzlzh/f2e-workflow/issues/11) and [Grunt](https://github.com/hzlzh/f2e-workflow/issues/11)  
+3. Install those two requirements [via](https://github.com/Ensighten/spritesmith#requirements)
 
         // install GraphicsMagick library
         // `Xcode Command Line Tools` may be needed, please agree.
@@ -91,14 +92,14 @@ After run `f2e-workflow`, you'll get `../publish` which is the final output.
 1. Install [Node.js] *If not installed*
 2. Download, then Install [GraphicsMagick] & [Phantomjs]  
     * [Install ](https://github.com/hzlzh/f2e-workflow/issues/2)  
-    * Download Mirror: [GraphicsMagick-1.3.19-Q8-win32-dll.zip](http://pan.baidu.com/s/1pJFczEz#dir/path=%2Fpublic%2Fdl%2Ff2e-workflow)
-    * Download Mirror: [phantomjs-1.9.2-windows.zip](http://pan.baidu.com/s/1pJFczEz#dir/path=%2Fpublic%2Fdl%2Ff2e-workflow)
-3. At last [Set system variable](https://github.com/hzlzh/f2e-workflow/issues/6)
+    * Download Mirror: [GraphicsMagick-1.3.19-Q8-win32-dll.zip](http://pan.baidu.com/s/1qWDE7Y8#path=%252Ff2e-workflow)
+    * Download Mirror: [phantomjs-1.9.2-windows.zip](http://pan.baidu.com/s/1qWDE7Y8#path=%252Ff2e-workflow)
+3. At last unpack them into any of your folder [Set system variable](https://github.com/hzlzh/f2e-workflow/issues/6)
 
 #### Both
 
 1. After install `GraphicsMagick` and `Phantomjs` successfully, run `npm install` to pull the dependance package.
-    * If you get some network trouble, you can download [node_modules.zip](http://pan.baidu.com/s/1pJFczEz#dir/path=%2Fpublic%2Fdl%2Ff2e-workflow) instead.
+    * If you get some network trouble, you can download [node_modules.zip](http://pan.baidu.com/s/1qWDE7Y8#dir/path=%2Fpublic%2Fdl%2Ff2e%2Ff2e-workflow) instead.
 
 <a name="details"></a>
 ### Documentation

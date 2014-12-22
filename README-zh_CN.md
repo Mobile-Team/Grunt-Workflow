@@ -71,11 +71,13 @@ f2e-workflow/
 
 #### Mac OS
 
-1. 建议使用 [Brew] 安装 [Node.js] *默认此步骤已完成*
-2. 单独安装下面两个依赖 [注](https://github.com/Ensighten/spritesmith#requirements)
+1. Node 环境：建议使用 [Brew] 安装 [Node.js] *默认此步骤已完成*  
+3. Grunt 环境：安装 [Grunt CLI](https://github.com/hzlzh/f2e-workflow/issues/11) 和 [Grunt](https://github.com/hzlzh/f2e-workflow/issues/11) 保证Grunt的正常环境   
+2. 单独安装下面两个依赖 [\[注\]](https://github.com/Ensighten/spritesmith#requirements)
 
         // 安装 GraphicsMagick 图像处理库
         // 期间可能会要求安装 Xcode Command Line Tools，同意即可
+        // 注：请保证至少运行一次 XCode.app 以同意苹果协议
         brew install GraphicsMagick
         
         // 安装 Phantomjs 库
@@ -91,14 +93,14 @@ f2e-workflow/
 1. 安装 [Node.js] *默认此步骤已完成*
 2. 下载安装 [GraphicsMagick] 和 [Phantomjs]  
     * [安装步骤图解](https://github.com/hzlzh/f2e-workflow/issues/2)  
-    * 备用下载：[GraphicsMagick-1.3.19-Q8-win32-dll.zip](http://pan.baidu.com/s/1pJFczEz#dir/path=%2Fpublic%2Fdl%2Ff2e-workflow)
-    * 备用下载：[phantomjs-1.9.2-windows.zip](http://pan.baidu.com/s/1pJFczEz#dir/path=%2Fpublic%2Fdl%2Ff2e-workflow)
-3. 运行安装完成后，[添加环境变量步骤](https://github.com/hzlzh/f2e-workflow/issues/6)
+    * 备用下载：[GraphicsMagick-1.3.19-Q8-win32-dll.zip](http://pan.baidu.com/s/1qWDE7Y8#path=%252Ff2e-workflow)
+    * 备用下载：[phantomjs-1.9.2-windows.zip](http://pan.baidu.com/s/1qWDE7Y8#path=%252Ff2e-workflow)
+3. 下载完毕，解压到任意目录后，会得到文件夹路径，继续[添加环境变量步骤](https://github.com/hzlzh/f2e-workflow/issues/6)
 
 #### Mac OS & Windows 通用步骤
 
 1. 成功安装上述`GraphicsMagick`和`Phantomjs`之后，在项目目录下运行 `npm install` 继续安装其他依赖。
-    * 若遇到网络问题，临时使用已打包的依赖包：[node_modules.zip](http://pan.baidu.com/s/1pJFczEz#dir/path=%2Fpublic%2Fdl%2Ff2e-workflow)
+    * 若遇到网络问题，临时使用已打包的依赖包：[node_modules.zip](http://pan.baidu.com/s/1qWDE7Y8#dir/path=%2Fpublic%2Fdl%2Ff2e%2Ff2e-workflow)
 
 ### <a name="documentation"></a>任务说明
 
